@@ -22,7 +22,9 @@ import           Snap.Snaplet.Session.Backends.CookieSession
 import           Snap.Util.FileServe
 import           Heist
 import qualified Heist.Interpreted as I
+
 import Control.Monad.IO.Class (liftIO)
+import System.Directory
 ------------------------------------------------------------------------------
 import           Application
 
